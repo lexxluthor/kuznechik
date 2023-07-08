@@ -7,13 +7,16 @@
 
 #### Documentation:
 
-GOST (in English) https://datatracker.ietf.org/doc/html/rfc7801
-GOST (in Russian) https://tc26.ru/standard/gost/GOST_R_3412-2015.pdf
+- GOST (in English) https://datatracker.ietf.org/doc/html/rfc7801
+- GOST (in Russian) https://tc26.ru/standard/gost/GOST_R_3412-2015.pdf
+
 #### Running code
 
-Make sure you have CMake installed on your system. If not, download it from the official CMake website (https://cmake.org/download)
-To compile and run this code use IDE that supports CMake or open terminal in the build directory and run
+1. Make sure you have CMake installed on your system. If not, download it from the official CMake website (https://cmake.org/download)
+2. To compile and run this code use IDE that supports CMake or open terminal in the build directory and run
+```
     cmake CMakeLists.txt 
     make 
-    ./Kuznechik 
-The program will execute the tests and display error messages if the tests fail. If all tests pass, "All tests have been successfully passed" will be displayed.
+    ./Kuznechik
+```
+3. The program will execute the tests and display error messages if the tests fail. If all tests pass, "All tests have been successfully passed" will be displayed.
